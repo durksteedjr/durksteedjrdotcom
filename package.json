@@ -5,6 +5,7 @@
   "scripts": {
     "commitlint": "commitlint",
     "commitlint:edit": "pnpm run commitlint --edit",
+    "dev": "pnpm run -r --workspace-concurrency Infinity dev",
     "eslint": "eslint",
     "eslint:all": "pnpm run eslint .",
     "husky": "husky",
