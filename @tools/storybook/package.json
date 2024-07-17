@@ -4,8 +4,9 @@
   "main": "./src/index.ts",
   "types": "./src/index.ts",
   "scripts": {
-    "dev": "BROWSER=none pnpm run storybook dev -p 3001",
+    "dev": "BROWSER=none pnpm run storybook:dev -p 3001",
     "storybook": "storybook",
+    "storybook:dev": "pnpm run storybook dev",
     "tsc": "tsc",
     "tsc:no-emit": "pnpm run tsc --noEmit",
     "typecheck": "pnpm run tsc:no-emit"
