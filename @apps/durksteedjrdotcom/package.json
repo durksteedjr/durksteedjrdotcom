@@ -8,14 +8,19 @@
     "astro:start": "pnpm run astro start",
     "build": "pnpm run astro:build",
     "dev": "pnpm run astro:dev",
-    "start": "pnpm run astro:start"
+    "start": "pnpm run astro:start",
+    "tsc": "tsc",
+    "tsc:no-emit": "pnpm run tsc --noEmit",
+    "typecheck": "pnpm run tsc:no-emit"
   },
   "dependencies": {
     "@astrojs/react": "^3.6.0",
+    "@astrojs/tailwind": "^5.1.0",
     "@packages/ui": "workspace:*",
     "astro": "^4.11.5",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.6"
   },
   "devDependencies": {
     "@astrojs/check": "^0.8.1",
