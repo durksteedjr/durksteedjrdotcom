@@ -1,0 +1,16 @@
+name: status
+
+on:
+  pull_request:
+
+jobs:
+  lint:
+    name: lint
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: ./.github/actions/setup
+
+      - run: pnpm run lint:check:all
+        shell: bash
