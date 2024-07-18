@@ -1,5 +1,5 @@
 {
-  "name": "@apps/durksteedjrdotcom",
+  "name": "@apps/web",
   "type": "module",
   "scripts": {
     "astro": "astro",
